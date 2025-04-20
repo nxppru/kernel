@@ -13,10 +13,10 @@ on:
       kernel_source:
         description: "Select the kernel source"
         required: false
-        default: "unifreq"
+        default: "nxppru"
         type: choice
         options:
-          - unifreq
+          - nxppru
           - codesnas
       kernel_version:
         description: "Select kernel version"
